@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Categories - SportsCar</title>
+  <title>WebCar</title>
   <link rel="stylesheet" href="project.css">
 </head>
 <body>
 
 <header>
+
   <div class="logo">
     <a href="index.html">🏎️ <span class="red">Sports</span><span class="white">Car</span></a>
   </div>
+
 
   <div class="nav-container">
     <nav class="nav-menu">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
-        <li><a href="categories.html" class="active">Categories</a></li>
+        <li><a href="categories.html">Categories</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -29,40 +31,70 @@
     </form>
   </div>
 
+
   <div class="login-container">
     <a href="login.html" class="icon">👤 Login</a>
   </div>
+  
 </header>
 
 <section class="categories-page">
   <h1>Car Categories</h1>
   <p>Browse our selection of sports cars by category.</p>
 
-  <div class="category-list">
-    <div class="category-card">
-      <h3>Luxury Sports Cars</h3>
-      <p>High-end performance with premium comfort and design.</p>
+  <!-- Block 1: Text - Image -->
+  <div class="category-block">
+    <div class="category-info">
+      <h2>Luxury Sports Cars</h2>
+      <p>Combining speed with sophistication, luxury sports cars offer premium interiors, advanced technology, and powerful engines. Expect brands like Ferrari, Aston Martin, and Bentley that deliver both comfort and adrenaline.</p>
+      <a href="products.html#luxury" class="view-btn">View Models →</a>
     </div>
-
-    <div class="category-card">
-      <h3>Classic Sports Cars</h3>
-      <p>Timeless icons that shaped the history of speed.</p>
+    <div class="category-image fade-right">
+      <img src="images/ferrari-f8.jpg" alt="Luxury Sports Car">
     </div>
+  </div>
 
-    <div class="category-card">
-      <h3>Modern Supercars</h3>
-      <p>Cutting-edge engineering and breathtaking speed.</p>
+  <!-- Block 2: Image - Text -->
+  <div class="category-block">
+    <div class="category-image fade-left">
+      <img src="images/porsche-911-classic.jpg" alt="Classic Sports Car">
     </div>
+    <div class="category-info">
+      <h2>Classic Sports Cars</h2>
+      <p>Timeless icons that shaped automotive history. These cars, such as the Porsche 911 Classic and Ford Mustang 1969, represent heritage, craftsmanship, and the golden age of motoring.</p>
+      <a href="products.html#Classic" class="view-btn">View Models →</a>
+    </div>
+  </div>
 
-    <div class="category-card">
-      <h3>Track-Ready Cars</h3>
-      <p>Built for racing with precision handling and raw power.</p>
+  <!-- Block 3: Text - Image -->
+  <div class="category-block">
+    <div class="category-info">
+      <h2>Modern Supercars</h2>
+      <p>Built with cutting-edge engineering, modern supercars push the limits of speed and design. Lamborghini, Bugatti, and Koenigsegg models showcase futuristic aerodynamics and breathtaking acceleration.</p>
+      <a href="products.html#modern" class="view-btn">View Models →</a>
+    </div>
+    <div class="category-image fade-right">
+      <img src="images/lamborghini-huracan.jpg" alt="Modern Supercar">
+    </div>
+  </div>
+
+  <!-- Block 4: Image - Text -->
+  <div class="category-block">
+    <div class="category-image fade-left">
+      <img src="images/mclaren-720s.jpg" alt="Track-Ready Car">
+    </div>
+    <div class="category-info">
+      <h2>Track-Ready Cars</h2>
+      <p>Designed for precision handling and raw performance, track-ready cars are built to dominate circuits. McLaren, Porsche GT3 RS, and Nissan GT-R Nismo deliver race-inspired technology for serious drivers.</p>
+      <a href="products.html#track" class="view-btn">View Models →</a>
     </div>
   </div>
 </section>
-
-<footer class="footer">
+  
+    <!--Footer Section-->
+ <footer class="footer">
   <div class="footer-container">
+    <!-- Quick Links -->
     <div class="footer-section">
       <h3>Quick Links</h3>
       <ul>
@@ -74,13 +106,15 @@
       </ul>
     </div>
 
+    <!-- Contact Info -->
     <div class="footer-section">
       <h3>Contact Us</h3>
       <p>📍 Unisan Quezon, Philippines</p>
       <p>📞 +63 912 345 6789</p>
-      <p>✉️ sportscars@gmail.com</p>
+      <p>✉️ sportscar@gmail.com</p>
     </div>
 
+    <!-- Social Media -->
     <div class="footer-section">
       <h3>Follow Us</h3>
       <div class="social-icons">
@@ -91,10 +125,10 @@
     </div>
   </div>
 
+  <!-- Copyright -->
   <div class="footer-bottom">
     <p>© 2026 SportsCar. All rights reserved.</p>
   </div>
 </footer>
-
 </body>
 </html>
